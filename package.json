@@ -4,7 +4,8 @@
   "description": "create a business card from command line",
   "main": "card.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon card.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
   "homepage": "https://github.com/ahmedu007/create-buisnesscard#readme",
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
