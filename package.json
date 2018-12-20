@@ -1,0 +1,28 @@
+{
+  "name": "create-buisnesscard",
+  "version": "1.0.0",
+  "description": "create a business card from command line",
+  "main": "card.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ahmedu007/create-buisnesscard.git"
+  },
+  "keywords": [
+    "businesscard",
+    "create",
+    "cli-businesscard"
+  ],
+  "author": "Umair Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmedu007/create-buisnesscard/issues"
+  },
+  "homepage": "https://github.com/ahmedu007/create-buisnesscard#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
