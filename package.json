@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "create a business card from command line",
   "main": "card.js",
+  "bin": {
+    "create-businesscard": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon card.js"
+    "start": "nodemon cli.js"
   },
   "repository": {
     "type": "git",
